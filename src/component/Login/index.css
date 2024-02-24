@@ -1,0 +1,50 @@
+.login-container {
+  background: #000;
+  min-height: 100vh;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #05e2f0;
+  width: 90%;
+  max-width: 400px;
+  padding: 25px 20px;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  margin-top: 10px;
+}
+
+.login-btn {
+  border: none;
+  background: blue;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
