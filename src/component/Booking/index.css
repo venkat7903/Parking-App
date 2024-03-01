@@ -1,0 +1,23 @@
+.spots-container {
+  width: 300px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-input {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-btn {
+  background-color: blue;
+  border: none;
+}

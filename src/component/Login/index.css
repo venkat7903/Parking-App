@@ -1,17 +1,21 @@
 .login-container {
   background: #000;
+  width: 100%;
   min-height: 100vh;
-  padding: 1px;
+  padding: 0px;
+  margin: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .form-container {
-  background: #05e2f0;
+  background: orange;
   width: 90%;
   max-width: 400px;
   padding: 25px 20px;
+  padding-bottom: 30px;
+  border-radius: 12px;
 }
 
 .login-title {
@@ -35,6 +39,10 @@
   width: 100%;
   outline: none;
   margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
 }
 
 .login-btn {
@@ -47,4 +55,8 @@
   border-radius: 5px;
   cursor: pointer;
   outline: none;
+}
+
+.error-msg {
+  color: red;
 }
