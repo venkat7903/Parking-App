@@ -171,7 +171,7 @@ class Booking extends Component {
             </option>
           ))}
         </select>
-        <h1>Available Spots</h1>
+        <h1>Available Spotss</h1>
         {isSelected && (
           <div>
             {spots.map((each) => {
